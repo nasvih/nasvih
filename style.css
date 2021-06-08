@@ -1,0 +1,194 @@
+div.body{
+height:2000px;
+width:100%;
+background-color:transparent;
+top:0;
+left:0;
+right:0;
+position:fixed;
+}
+div.slide{
+height:600px;
+width:100%;
+background-color:yellow;
+
+top:0;
+left:0;
+right:0;
+}
+.slider{
+ width: 100%;
+    height: 100%;
+    background: white;
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 1;
+    z-index: 0;
+    
+    display: flex;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+
+}
+.top{
+margin-top:30px;
+margin-left:40px;
+height:90px;
+width:100%;
+background-color:transparent;
+}
+
+
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: transparent;
+  top: 0;
+float:right;
+font-family:Consolas;
+  font-size: 16px;
+
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 7px 14px;
+  text-decoration: none;
+opacity:.6;
+}
+
+li a:hover {
+  opacity:1;
+}
+
+.active {
+  opacity:1;
+}
+.gt{
+border:2px solid white;
+border-radius:100px;
+}
+.gt:hover{
+background-color:white;
+color:black;
+
+}
+div.ups{
+background-color:transparent;
+height:600px;
+width:100%;
+float:left;
+}
+h1{
+color:white;
+font-family:Verdana;
+font-size:40;
+}
+h2
+{
+color:white;
+font-family:Verdana;
+font-size:20;
+opacity:.8;
+}
+.ex{
+background-color:#fdac2b;
+color:black;
+border:10px solid #fdac2b;
+border-radius:40px;
+padding:7px;
+text-align:center;
+text-decoration:none;
+font-family:Verdana;
+font-size:15;
+}
+.ex:hover{
+background-color:white;
+border:10px solid white;
+}
+.grad{
+background-image: linear-gradient(to bottom right,#f4b527,#f05a26);
+}
+.str{
+width:55%;
+height:350px;
+background-color:white;
+margin-top:125px;
+margin-left:22.5%;
+border-radius:20px;
+border:8px solid white;
+}
+.logo2{
+width:200px;
+margin-top:20px;
+margin-left:30px;
+}
+.logo2div{
+width:100%;
+height:20%;
+background-color:white;
+float:left;
+}
+.logo2div2{
+width:100%;
+height:80%;
+background-color:white;
+float:left;
+text-align:center;
+font-family:Linux Libertine Display G;
+}
+.verify{
+color:#ff9800;
+font-size:40;
+font-family:Linux Libertine Display G;
+}
+.verify2{
+padding:10px;
+color:#a2a09b;
+border:1px solid #a2a09b;
+}
+.verify2:hover{
+color:black;
+}
+.verify3{
+padding:10px;
+background-color:#f4b527;
+color:white;
+border-radius:30px;
+border:2px solid #f4b527;
+width:150px;
+}
+.verify3:hover{
+background-color:#f05a26;
+border:2px solid #f05a26;
+}
+.c{
+width:100%;
+height:50px;
+background-color:tranparent;
+margin-top:30px;
+margin-left:40px;
+}
+.c2{
+margin-top:30px;
+margin-left:20%;
+width:60%;
+height:1000px;
+background-color:white;
+

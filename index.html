@@ -1,0 +1,72 @@
+
+
+
+
+
+
+<html>
+<head>
+<title>Learnzyt</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+
+<div class="slide">
+<img src="images/slider/1.jpg" class="slider">
+<img src="images/slider/2.jpg" class="slider">
+<img src="images/slider/3.jpg" class="slider">
+</div>
+
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("slider");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}    
+  x[myIndex-1].style.display = "block";  
+  setTimeout(carousel, 2000);    
+}
+</script>
+
+</div>
+<div class="body">
+<div class="top">
+
+<img src="images/logo.png" width="150px">
+
+<ul>
+  <li><a class="active" href="index.html">Home</a></li>
+  <li><a href="#news">Courses</a></li>
+  <li><a href="careers.html">Careers</a></li>
+<li><a href="#contact">Our Team</a></li>
+<li><a href="#contact">Contact</a></li>
+<li><a href="getstarted.html" class="gt">Get Started</a></li>
+<li><a href="#"> </a></li><li><a href="#contact"> </a></li>
+
+
+
+</ul>
+
+</div>
+<div class="ups">
+<h1><pre>
+	Revolutionizing the
+	world's view of
+	Education,Mentorship and Success</pre></h1>
+<h2><pre>
+		Join us in the journey to provide quality
+		education to children.
+</pre><br>
+</h2><pre>
+			<a class="ex" href="getstarted.html">          Explore More  >          </a></pre>
+</div>
+<div class="upss">
+</div>
+
